@@ -38,17 +38,18 @@ pip install -r requirements.txt
 ### 4️⃣ Set up environment variables:
 Create a .env file in the root directory and add:
 GROQ_API_KEY=your_api_key_here
+Get your Groq API key from https://console.groq.com/keys
 
 ### 5️⃣ Run the chatbot:
 python main.py
 
 ### Project Structure
 📂 rag-qna-chatbot
-│── 📄 main.py                # Main script for the chatbot
+│── 📄 final.py                # Main script for the chatbot
 │── 📄 requirements.txt       # Required dependencies
 │── 📄 README.md              # Project documentation
 │── 📄 .env                   # API key storage (not included in Git)
-│── 📂 chroma_db              # ChromaDB storage
+│── 📂 chroma_db              # ChromaDB storage (not included in Git)
 │── 📄 doc.pdf                # Input PDF document
 
 ### Example usage
